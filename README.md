@@ -46,12 +46,3 @@
     - npm install
     - npm start
 
-
-- Team Details(**FAUG**):
-
-| **Author Name**             | **email**                  |
-| --------------------------- | -------------------------- |
-| Uday Kiran Kolluru          | kolluru.u@northeastern.edu |
-| Srinivasa Pavan Ganesh Vasa | vasa.sr@northeastern.edu   |
-| Aditya Raj                  | raj.adi@northeastern.edu   |
-| Felicia Francis Sequeira    | sequeira.f@northeastern.edu|
