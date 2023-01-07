@@ -1,0 +1,37 @@
+// mixin is used for border radius
+@mixin border-radius($rad) {
+    border-radius: $rad;
+}
+
+//to align the layout of the content
+@mixin flex-layout($justify_content, $align-item) {
+    display: flex;
+    justify-content: $justify_content;
+    align-items: $align-item;
+}
+
+//fle directions are given, using loop and map
+$align-directionss: ("str": stretch, "sp-ar": space-around);
+@each $name, $glyph in $align-directionss {
+  .flex-dir-#{$name}{
+    align-content: $glyph;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+//misin to float each image
+@mixin float-text-on-image($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
+@function pow($b, $exp) {
+  $res: 1;
+  @for $_ from 1 through $exp {
+    $res: $res * $b;
+  }
+  @return $res;
+}

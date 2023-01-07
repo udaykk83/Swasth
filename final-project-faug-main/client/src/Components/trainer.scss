@@ -1,0 +1,38 @@
+.trainerList-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+//individual cards
+.trainerlist-cards {
+    border: 10px;
+    border-radius: 5%;
+    box-shadow: 10px 15px 30px 7px rgb(240, 242, 247);
+    width: 80%;
+}
+
+.trainerlist-contents {
+    width: 150%;
+    margin: 30px;
+    padding: 25px 0px;
+    .ant-btn {
+        width: 200px;
+        margin-left: 50px;
+        background-color: black;
+        // color: white;
+    }  
+}
+
+.trainerinfo-check{
+    color: white !important;
+}
+// .booking-contents{
+//     padding: 7% -1% 7% 1%;
+//     margin-left: 50px;
+//     margin-top: 50px;
+//     .ant-btn {
+//         width: 100%;
+//     }    
+// }

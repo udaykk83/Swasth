@@ -1,0 +1,34 @@
+.profile-info-div {
+    color: red;
+    margin: 05px 150px;
+    // box-shadow: 10px 15px 30px 7px rgb(240, 242, 247);
+}
+
+//extend feature used and margin and padding done
+.profile-info-div-2 {
+    @extend .profile-info-div;
+    margin-right: 50px;
+    padding-left: 40px;
+}
+
+.form-headers {
+    display: flex;
+    color: white;
+    .form-header-name-1 {
+        margin: 20px 150px;
+    }
+}
+
+.form-header-name-2 {
+    @extend .form-header-name-1;
+    margin: 10px;
+}
+
+//padding and d-flex used to align
+.trainer-form-submit-div{
+    margin-top: 70px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+
+}

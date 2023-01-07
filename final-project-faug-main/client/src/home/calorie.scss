@@ -1,0 +1,173 @@
+//layout body margin added
+body {
+  margin-bottom: 30%;
+  margin-top: 2%;
+}
+
+//Data filters outer div
+.filters-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 50px;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-around;
+
+
+  //Individual div displayed in sude by side
+  >div {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 30px;
+
+  }
+
+  //headers styled
+  h6 {
+    font-size: 15px;
+  }
+
+  .ant-select-selection-item {
+    width: 100px;
+  }
+}
+
+//Add new button styling
+.AddNewMeal {
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+//Filters styled using flex nowrap
+.calorie-filter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 0 3px gray;
+  padding: 15px 20px;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  // background-color: black;
+
+}
+
+//Antd table color design
+.ant-table-tbody {
+  color: black;
+}
+
+.btn-submit-calorie {
+  color: black;
+  background-color: white;
+}
+
+//padding and border for add calores
+.AddNewMeal {
+  color: white; // #1C4EEE;
+  background-color: black; // #ef11e0;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  padding-bottom: 5px;
+  border: 0;
+  font-size: 14px;
+}
+
+
+// hover functionalities added
+.AddNewMeal:hover {
+  color: #4d8b8c;
+  border-radius: #4d8b8c;
+}
+
+.calorie-filter {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 3%;
+}
+
+.d-flex {
+  display: flex;
+  font-size: larger;
+  gap: 20%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+//   margin-top: 20px;
+}
+
+.table {
+  margin-bottom: 3%;
+
+  button {
+    background-color: rgb(246, 244, 244);
+    color: aqua;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+  }
+}
+
+
+.category-analysis {
+
+  // border-color: crimson;
+  // border: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 125px;
+  margin-left: 5%;
+
+}
+
+//Table elemets displayed
+.row {
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  margin-bottom: 50%;
+  gap: 150px;
+  box-shadow: 0 0 3px gray;
+  padding: 15px 20px;
+  border-radius: 7px;
+}
+
+.col-md-6 {
+  font-size: large !important;
+  width: 900px;
+}
+
+h6 {
+  margin-top: 3%;
+}
+
+.ant-select .ant-select-arrow {
+  top: 17px;
+}
+
+.EDbtn {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.date-filter-home .flex-column .mx-5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.EDbtn {
+  position: relative;
+  left: -180px;
+}
+
+.bi:hover {
+  color: #4d8b8c;
+}

@@ -1,0 +1,50 @@
+//outer div to manage all the bookings screens
+//flex used
+.booking-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 150px;
+}
+
+//Basic details styled using margin and padding
+.booking-contents-1 {
+    padding: 7% -1% 7% 1%;
+    margin-top: 50px;
+
+    .ant-btn {
+        width: 100%;
+    }
+}
+
+//div to all the trainers available
+.trainerlist-contents-appt {
+    margin-left: 160px;
+    font-size: large;
+}
+
+//professional details
+.booking-contents-2 {
+    @extend .booking-contents-1;
+}
+
+//date and time buttons styling
+.booking-cards-2 {
+    @extend .booking-contents-1;
+    margin-left: -150px;
+    margin-top: 60px;
+}
+
+//book Now button styling
+.booknow {
+    width: 100px !important;
+}
+
+.ant-form {
+    justify-content: space-between;
+    box-shadow: 0 0 3px #6d9ca4;
+    padding: 15px 20px;
+    border-radius: 7px;
+    height: 600px;
+}

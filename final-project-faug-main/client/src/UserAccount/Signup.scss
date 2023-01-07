@@ -1,0 +1,81 @@
+li,
+a,
+button,
+Link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+//all the layout default styles added in body
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+//flex direction used along with background color to align
+.common-signup {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //background-image: url("../Images/logo-png.png");
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+    padding-bottom: 25px;
+    //Antd form styling according to the padding set and box shadow added
+    Form {
+        top: 125%;
+        position: relative;
+        width: 600px;
+        height: 700px;
+        max-width: 550px;
+        padding: 80px 40px 40px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        color: #020202;
+        box-shadow: 0 15px 25px rgba(246, 238, 238, 0.5);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    }
+    img {
+        align-items: center;
+        width: 100%;
+        border: 2px black;
+        border-radius: 10px;
+        box-shadow: 0 15px 25px rgba(246, 238, 238, 0.5);
+    }
+    h2 {
+        padding-left: 65px;
+    }
+}
+
+
+.signuptest {
+    top: 0.25em;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    align-items: center;
+    gap: 30px;
+
+    >a {
+        text-decoration: none;
+        font-weight: 300;
+    }
+}
+
+// button {}
+
+.ant-btn {
+    width: 100px;
+    color: black !important;
+}
